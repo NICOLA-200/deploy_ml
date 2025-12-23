@@ -3,11 +3,12 @@ from flask import Flask, render_template , request
 import pickle
 
 app = Flask(__name__)
-cv = pickle.load(open("models/cv.pkl"))
-clf = pickle.load(open("models/clf.pkl"))
+cv = pickle.load(open("models/cv.pkl", "rb"))
+clf = pickle.load(open("models/clf.pkl", "rb"))
 
 
-.route("/")
+
+@app    .route("/")
 def home():
     return render_template("index.html")
 
