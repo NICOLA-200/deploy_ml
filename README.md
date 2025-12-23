@@ -25,4 +25,5 @@ python app.py
 ## Use Case
 Ideal for learning **ML deployment**, APIs, and connecting models to real-world applications.
 
-For a live demo, visit: [My Deployed Project](https://spam-classifier-tth2.onrender.com/predict)
+For a live demo, visit: [My Deployed Project](https://spam-classifier-tth2.onrender.com/predict
+)
